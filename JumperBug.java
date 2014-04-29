@@ -33,7 +33,7 @@ public class JumperBug extends Bug
      */
     public JumperBug()
     {
-        setColor(Color.RED);
+        setColor(Color.GREEN);
     }
 
     /**
@@ -60,7 +60,7 @@ public class JumperBug extends Bug
         if (gr.isValid(next))
             moveTo(next);
         else
-            removeSelfFromGrid();
+            turn;
     }
 
     /**
